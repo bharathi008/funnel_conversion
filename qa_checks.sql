@@ -2,7 +2,7 @@
 
 select count(1) > 0 from fact_conversion_funnel
 where da = (CURRENT_DATE -1);
--- check of
+-- should be true
 
 select
    user_id ,
